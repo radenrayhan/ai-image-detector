@@ -145,11 +145,11 @@ export default function Home() {
                 </div>
                 <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "8px", marginBottom: "14px" }}>
                   <div style={{ background: "#1a1a24", borderRadius: "10px", padding: "10px" }}>
-                    <div style={{ fontSize: "17px", fontWeight: "700", color: "#f472b6" }}>{result.isAI ? result.score : 100 - result.score}%</div>
+                    <div style={{ fontSize: "17px", fontWeight: "700", color: "#f472b6" }}>{result.score}%</div>
                     <div style={{ fontSize: "11px", color: "#444", marginTop: "2px" }}>AI Score</div>
                   </div>
                   <div style={{ background: "#1a1a24", borderRadius: "10px", padding: "10px" }}>
-                    <div style={{ fontSize: "17px", fontWeight: "700", color: "#4ade80" }}>{result.isAI ? 100 - result.score : result.score}%</div>
+                    <div style={{ fontSize: "17px", fontWeight: "700", color: "#4ade80" }}>{100 - result.score}%</div>
                     <div style={{ fontSize: "11px", color: "#444", marginTop: "2px" }}>Real Score</div>
                   </div>
                 </div>
